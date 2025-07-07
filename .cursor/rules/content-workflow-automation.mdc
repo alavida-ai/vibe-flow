@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This rule dicates how you will interact with this repository. 
+
+Any files you generate should be in line with the repository structure.
+
+- @strategy/ - Living strategy documents and analysis
+- [content/](mdc:content) - Published content organized by type
+- [templates/](mdc:templates) - Reusable content frameworks
+- [automation/](mdc:automation) - N8N workflows and Airtable schemas
+- @workflows/ - Interactive workflow guides, which require human input, judgement and interative collborative with AI tools. 
+- @prompts/ - Prompts detailed instructions for specific tasks
+
+When a user asks you to perform any strategic research:
+
+- Always consult the @strategy file and it's associated rule
+- Generate your content in .md format
+- Consult the documents already existing in the folder
+
+When a user asks you to create content ideas:
+- Always consult the @strategy folder to ensure consistent tone of voice 
